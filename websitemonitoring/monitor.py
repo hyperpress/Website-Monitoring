@@ -10,3 +10,4 @@ def monitor_website(url):
     elif r.status_code != 200:
         print("RESPONSE FAILED")
         return r.url, r.status_code, r.reason
+
